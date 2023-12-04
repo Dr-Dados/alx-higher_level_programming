@@ -3,4 +3,8 @@
 
 
 def lookup(obj):
+    """ lookup function
+
+    :param obj:
+    """
     return dir(obj)
