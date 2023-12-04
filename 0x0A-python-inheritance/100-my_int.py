@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """class"""
 
+
 class MyInt(int):
     """class body"""
     def __eq__(self, other):
