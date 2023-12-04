@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""is same class function"""
+"""class"""
 
 
 def is_same_class(obj, a_class):
-    """ isinstance function
-    
+    """is_same_class.
+
     :param obj:
     :param a_class:
     """
