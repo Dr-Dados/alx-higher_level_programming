@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""MyList class"""
+"""MyList."""
 
 
-def MyList(list):
-    """MyList class body"""
+class MyList(list):
+    """MyList."""
+
     def print_sorted(self):
-        """print sorted list"""
+        """print_sorted."""
         print(sorted(self))
