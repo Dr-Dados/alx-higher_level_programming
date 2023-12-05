@@ -4,6 +4,5 @@
 
 def read_file(filename=""):
     """ function """
-    f = open(filename, 'r', encoding='utf-8')
-    print(f.read(), end="")
-    f.close()
+    with open(filename, encoding='utf-8') as f:
+        print(f.read(), end="")
