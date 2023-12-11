@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+""" module """
+
+
+class Rectangle(Base):
+    def __init__(self,id,width,height):
+        
